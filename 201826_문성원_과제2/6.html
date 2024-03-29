@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>201826 문성원</title>
+    <style>
+        h3{color:red}
+        h3:hover {color:blue}
+
+        
+        .change img:nth-child(1) {
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .change img:nth-child(2) {
+                display: none;
+         }
+
+        .change:hover img:nth-child(1) {
+            display: none;
+        }
+        .change:hover img:nth-child(2) {
+            display: inline;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h3>hover 실습</h3>
+    
+    <span class="change">
+        
+        <img src="king.jpg" width="100">
+        <img src="queen.jpg" width="100">
+        
+    </span>
+    
+</body>
+</html>
